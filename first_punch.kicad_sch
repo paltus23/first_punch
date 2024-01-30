@@ -2132,6 +2132,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6cf781f9-0c8e-45a7-8325-0e1813c7d2a2)
   )
+  (text "CW to 3\nCCW to 1\n" (at 226.06 26.67 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 94696d06-8928-49a7-bee8-755a9586fbf0)
+  )
   (text "12 V / 1 MOhm = 12 uA\n12 V / 10 kOhm = 1.2 mA\n12 V / 4.7 kOhm = 2.5 mA"
     (at 121.92 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2144,6 +2148,10 @@
   (text "For cd40106\nVo=13.5 Vdd=15 min Io=3.4 typ Io=6.8" (at 33.655 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d7d63fb0-c2c4-4e75-9348-8ebea5b2a49b)
+  )
+  (text "CW to 3\nCCW to 1\n" (at 139.7 44.45 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fbe04e0a-83db-4916-a2d7-ad9e5988a401)
   )
 
   (global_label "Vref" (shape input) (at 240.03 59.69 180) (fields_autoplaced)
