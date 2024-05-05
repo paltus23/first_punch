@@ -465,7 +465,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "first_ufo_v1_1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
