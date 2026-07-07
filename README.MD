@@ -8,3 +8,7 @@ Version 1.1 works fine but have two issues.
 
 To use project install Kode Mono font.
 
+
+There is few photos of ready device v1.1
+![photo1](res/first_ufo_v1_1.png)
+
