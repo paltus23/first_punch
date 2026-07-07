@@ -5976,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Import:tactile pad triangle"
+		(property "Footprint" "Import:tactile pad triangle_1"
 			(at 107.95 67.31 0)
 			(effects
 				(font
@@ -10647,15 +10647,15 @@
 		(fields_autoplaced yes)
 		(uuid "bc241c37-9bfc-43bf-843e-5f7c9fe083d7")
 		(property "Reference" "R18"
-			(at 186.69 38.1 90)
+			(at 186.69 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 186.69 40.64 90)
+		(property "Value" "1k"
+			(at 186.69 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)

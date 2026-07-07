@@ -4707,7 +4707,7 @@
 			)
 		)
 	)
-	(footprint "Import:tactile pad triangle"
+	(footprint "Import:tactile pad triangle_1"
 		(layer "F.Cu")
 		(uuid "46f15b75-0376-4daf-8576-9f3fee36d303")
 		(at 126.96 123.365)
@@ -4763,32 +4763,9 @@
 		(sheetname "/")
 		(sheetfile "first_ufo_v1_2.kicad_sch")
 		(attr smd exclude_from_bom)
-		(fp_rect
-			(start -12.5 0.5)
-			(end 12.5 5.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "bf1d95a6-8998-4579-9467-ddb996c9adba")
-		)
 		(fp_poly
 			(pts
-				(xy -12.5 -0.5) (xy 12.5 -0.5) (xy 12.5 -10.5)
-			)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "e6eac746-d839-42d4-8357-885a9ead0e0e")
-		)
-		(fp_poly
-			(pts
-				(xy -13 6) (xy -13 -0.5) (xy 13 -11) (xy 13 6)
+				(xy 23.0127 6.5) (xy 23.0127 -1) (xy -22.9873 -12) (xy -22.9873 6.5)
 			)
 			(stroke
 				(width 0.1)
@@ -4796,7 +4773,7 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(uuid "6e8f5566-ede2-4cf2-acc1-18e896eb1d66")
+			(uuid "2c212a16-c8a7-4ec7-a8c5-df9d2d0fcd2e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 11.938 0)
@@ -4810,21 +4787,32 @@
 				)
 			)
 		)
-		(pad "1" smd roundrect
-			(at 11.5 -5.5)
-			(size 1.254 1.334)
+		(pad "1" smd custom
+			(at 0 -1.5)
+			(size 0.5 0.5)
 			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
 			(net 31 "Net-(D5-Pad1)")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 23 1) (xy -23 -10) (xy -23 1)
+					)
+					(width 0.02)
+					(fill yes)
+				)
+			)
 			(uuid "60780e82-873b-4649-8bf3-6a329ef5c8e3")
 		)
-		(pad "2" smd roundrect
-			(at 11 3)
-			(size 1.254 1.334)
+		(pad "2" smd rect
+			(at -0.000002 3.5)
+			(size 45.999996 5.499996)
 			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
 			(net 33 "Net-(D5-Pad2)")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -22365,6 +22353,48 @@
 					(xy 147.919877 46.579874) (xy 147.919877 42.925696) (xy 148.710919 42.925696) (xy 148.710919 44.787742)
 					(xy 149.123995 44.325818) (xy 152.82 44.325818) (xy 152.82 45.17273) (xy 149.32 45.17273) (xy 148.710919 45.375757)
 					(xy 148.710919 46.579874)
+				)
+			)
+		)
+	)
+	(gr_text "v1.2"
+		(at 137.75 85.05 0)
+		(layer "F.SilkS")
+		(uuid "f326c735-004d-4bb3-ae49-4ef767188912")
+		(effects
+			(font
+				(face "Kode Mono")
+				(size 2.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+		(render_cache "v1.2" 0
+			(polygon
+				(pts
+					(xy 138.676077 82.762953) (xy 138.676077 83.764043) (xy 138.323268 84.376482) (xy 138.083941 83.781446)
+					(xy 138.083941 82.762953) (xy 137.915871 82.762953) (xy 137.915871 83.820067) (xy 138.241386 84.625)
+					(xy 138.388389 84.625) (xy 138.846161 83.833958) (xy 138.846161 82.762953)
+				)
+			)
+			(polygon
+				(pts
+					(xy 139.554801 82.174938) (xy 139.201993 82.776997) (xy 139.290195 82.997426) (xy 139.554801 82.542524)
+					(xy 139.554801 84.372971) (xy 139.174699 84.372971) (xy 139.174699 84.625) (xy 140.102882 84.625)
+					(xy 140.102882 84.372971) (xy 139.724886 84.372971) (xy 139.724886 82.174938)
+				)
+			)
+			(polygon
+				(pts
+					(xy 140.750614 84.625) (xy 140.750614 84.134987) (xy 141.044622 84.134987) (xy 141.044622 84.625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 141.862438 82.174938) (xy 141.692354 82.465435) (xy 141.776343 82.675484) (xy 141.925453 82.426967)
+					(xy 142.379104 82.426967) (xy 142.513468 82.762953) (xy 141.690247 84.183989) (xy 141.690247 84.625)
+					(xy 142.622644 84.625) (xy 142.622644 84.372971) (xy 141.858317 84.372971) (xy 141.858317 84.257567)
+					(xy 142.622644 82.945067) (xy 142.622644 82.577481) (xy 142.460986 82.174938)
 				)
 			)
 		)
